@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+<listeners>
+ <listener class-name="vtigergenericUtilities.Listners">
+ 
+ </listener>
+ </listeners>
+  <test thread-count="5" name="Test">
+ 
+    <classes>
+      <class name="soundarya.TC_07CreateOrgWithTickerSymbolTest"/>
+      <class name="soundarya.CreateOrganisationWithNameTest"/>
+      <class name="soundarya.TC_06CreateOrganisdatioWithTypeTest"/>
+      <class name="soundarya.TC_04CreateOrganisationWithIndustry"/>
+      <class name="soundarya.TC_11CreateOrgansiationWithMemberTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
